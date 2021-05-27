@@ -1,0 +1,10 @@
+#lang racket
+(define (multiply a) (* a 2.3 pi (sqr 2)))
+(multiply 2)
+(define (add x y) (+ (sqrt 49) x y))
+(add 3 4)
+(define (apply function a b)(function a b))
+(apply * 23 3.2)
+(apply + 21 45.3)
+(define w(apply * 5 5))
+(sqrt w)
